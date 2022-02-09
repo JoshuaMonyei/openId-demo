@@ -20,3 +20,10 @@ export class HomeComponent {
     this.auth.logout({ returnTo: this.doc.location.origin });
   }
 }
+
+export class UserComponent {
+
+  constructor(public auth: AuthService, @Inject(DOCUMENT) private doc: Document) {
+  }
+  
+}

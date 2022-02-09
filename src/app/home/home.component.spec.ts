@@ -7,10 +7,10 @@ describe('HomeComponent', () => {
   let component: HomeComponent;
   let fixture: ComponentFixture<HomeComponent>;
   const config = {
-    domain: 'id-sandbox.cashtoken.africa/oauth',
+    domain: 'id-sandbox.cashtoken.africa',
     clientId: 'wprQYMZBqqx-dgszFUfQG',
     redirectUri: 'http://localhost:3000/callback',
-    // scope: ["openid","email","profile"],
+    // scope: "openid profile email",
   };
 
   beforeEach(waitForAsync(() => {

@@ -1,6 +1,7 @@
 # OpenIdDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+![picture for project login page](https://github.com/JoshuaMonyei/openId-demo/blob/06dfa101c3a6a626cce12a9fccaca0a388135d4c/loginPage.png)
 
 ## Development server
 

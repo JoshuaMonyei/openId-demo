@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'openId-demo';
+  flag:boolean = true
+
+
+  apply(value:string){
+    this.flag = value == "login"?true : false;
+  }
 }
